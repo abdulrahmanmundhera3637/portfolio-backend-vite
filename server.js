@@ -9,7 +9,7 @@ const appRoutes = require('./routes/routes');
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: 'https://portfolio-frontend-vite.vercel.app', 
     methods: ['GET', 'POST'],  
     credentials: true 
 }));
